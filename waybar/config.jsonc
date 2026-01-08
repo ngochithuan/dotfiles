@@ -16,7 +16,7 @@
         "pulseaudio",
         "network",
         "power-profiles-daemon",
-        "backlight",
+        //"backlight",
         "clock",
 	"tray",
 	"battery"
@@ -43,7 +43,7 @@
     	"spacing": 10
     },
     "clock": {
-        // "timezone": "America/New_York",
+        //"timezone": "Asia/Ho_Chi_Minh",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format-alt": "{:%d-%m-%Y}"
     },
@@ -80,12 +80,12 @@
     },
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "{essid} ",
-        "format-ethernet": "{ipaddr}/{cidr} ",
-        "tooltip-format": "{ifname} via {gwaddr} ",
-        "format-linked": "{ifname} (No IP) ",
-        "format-disconnected": "Disconnected ⚠",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+        "format-wifi": "",
+        //"format-ethernet": "{ipaddr}/{cidr} ",
+        "tooltip-format": "{essid}",
+        //"format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "⚠",
+        //"format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
